@@ -1,0 +1,57 @@
+NAME-Siddharth Sharma 
+company-Codetech It Solution 
+Intern ID-CT6WEUR 
+Domain-Data science 
+Duration-December 2024 to February 2025
+introduction and discription of ENN-TO-END DATA SCIENCE PROJECT 
+End-to-End Data Science Project Description
+This Python program demonstrates an end-to-end data science project workflow. It includes the following steps:
+
+Data Collection and Preprocessing:
+
+A simple dataset simulating a purchase decision based on age and salary is created.
+Features (age and salary) and target (purchased) are defined.
+Data is split into training and testing sets.
+Model Training:
+
+A Random Forest Classifier is trained on the preprocessed data.
+The model is evaluated on a test set, and its accuracy is displayed.
+The trained model is saved to a file (model.pkl) for later use.
+API Development:
+
+A Flask application is built to serve the model.
+A single endpoint (/predict) accepts age and salary via a POST request, performs validation, and returns a prediction.
+Model Deployment:
+
+The Flask app runs locally, allowing users to interact with the model via HTTP requests.
+Python Tools Used
+Pandas:
+
+For handling and preprocessing tabular data.
+Scikit-learn:
+
+To split data into training and testing sets.
+For building and evaluating the machine learning model.
+Pickle:
+
+For saving and loading the trained model.
+Flask:
+
+To create and deploy an API for serving the model.
+JSON:
+
+For input and output data exchange in the API.
+How to Use
+Run the script to train and save the model.
+Start the Flask server (app.run()).
+Use an HTTP client (like Postman or curl) to send a POST request to http://127.0.0.1:5000/predict with JSON input:
+json
+Receive the prediction as a JSON response.
+
+
+
+
+
+
+
+
